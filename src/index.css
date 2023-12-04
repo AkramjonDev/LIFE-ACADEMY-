@@ -1,0 +1,147 @@
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+    font-size: 62.2%;
+    scroll-behavior: smooth;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+  }
+  .containerOn {
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  main {
+    flex-grow: 1;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+}
+@layer {
+  .container {
+    @apply max-w-6xl mx-auto px-7;
+  }
+}
+
+.dropdown {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 1280px) {
+  .social-top {
+    justify-content: center;
+    gap: 10px;
+  }
+  .search-wrapper {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-items {
+    display: none;
+  }
+  .navbar-btn {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .location-card{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .location-card img{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .backimg {
+    width: 100%;
+    padding-right: 85px;
+    padding-left: 85px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social-top p {
+    display: none;
+  }
+  .cosial-medias {
+    justify-content: center;
+  }
+  .choose-card {
+    width: 280px;
+  }
+  .courses-title {
+    margin-top: 50px;
+  }
+  .location-about{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 610px) {
+  .main-choose-title {
+    margin-top: 50px;
+  }
+  .choose-card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .backimg {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-logo {
+    width: 45%;
+    margin-right: 10px;
+  }
+  .backimg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .containerOn {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
