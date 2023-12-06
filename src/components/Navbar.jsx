@@ -35,7 +35,7 @@ function Navbar() {
   }, [items, theme]);
   return (
     <div>
-      <div className="bg-[#332942] ">
+      <div className="bg-[#332942]">
         <div className="container flex flex-col md:flex-row justify-between flex-wrap py-6 social-top">
           <p className="flex items-center gap-2 text-white text-[14px]">
             <FaPhone className="text-xl" color="white" />{" "}
@@ -108,9 +108,9 @@ function Navbar() {
           </ul>
         </div>
         <Link className="navbar-logo">
-          <h1 className="font-bold dark:text-[#fff] flex items-center gap-3"> <img className="w-[50px] h-[50px] rounded-[50%]" src={logo} alt="" />LIFE ACADEMY</h1>
+          <h1 className="font-bold text-[#fff] dark:text-[#fff] flex items-center gap-3"> <img className="w-[50px] h-[50px] rounded-[50%]" src={logo} alt="" />LIFE ACADEMY</h1>
         </Link>
-        <ul className="flex gap-[24px] items-center navbar-items dark:text-[#fff]">
+        <ul className="flex gap-[24px] items-center navbar-items text-[#fff] dark:text-[#fff]">
           <li>
             <Link
               className=" flex items-center gap-[4px] text-[18px] font-semibold "

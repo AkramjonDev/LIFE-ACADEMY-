@@ -44,6 +44,10 @@
     display: flex;
     object-fit: cover;
   }
+  .main-header {
+    background-image: linear-gradient(to right, #3a414a9d 0%, #2b3c47a4 100%), url(./assets/images/BC_img.webp);
+}
+
 }
 @layer {
   .container {
