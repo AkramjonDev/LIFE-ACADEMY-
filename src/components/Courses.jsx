@@ -88,7 +88,7 @@ const Courses = () => {
         <div data-aos="fade-up" className="courses-card flex flex-col flex-wrap items-center p-8 rounded-2xl bg-[#fff] dark:bg-[#262449] mb-10">
           <img className="mb-10 w-[320px] h-[208px] rounded-lg" src={School} />
           <h3 className="text-center font-bold text-5xl mb-6">
-            Prizindent maktabiga <br /> tayyarlov
+            Prezindent maktabiga <br /> tayyarlov
           </h3>
           <div className="coureses-result flex justify-between mb-5 gap-12">
           </div>
