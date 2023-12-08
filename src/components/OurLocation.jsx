@@ -1,8 +1,8 @@
 import React from "react";
-import EduLocation from "../assets/images/Education-center.webp";
+import EduLocation from "../assets/images/photo_2023-12-06_13-42-52.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/photo_2023-10-31_21-42-00.jpg";
+import logo from "../assets/images/photo_2023-10-31_21-42-00.jpg"
 const OurLocation = () => {
   return (
     <div className="location mb-20">
