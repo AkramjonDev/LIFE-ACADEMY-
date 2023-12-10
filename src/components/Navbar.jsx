@@ -86,7 +86,7 @@ function Navbar() {
                 className="flex items-center gap-[4px] font-semibold text-2xl text-[#141024]"
                 to={"/xizmatlar"}
               >
-                Xizmatlar
+                Qulayliklar
               </Link>
             </li>
             <li>
@@ -116,7 +116,7 @@ function Navbar() {
               className=" flex items-center gap-[4px] text-[18px] font-semibold "
               to={"/xizmatlar"}
             >
-              Xizmatlar
+              Qulayliklar
             </Link>
           </li>
           <li>
