@@ -11,7 +11,7 @@ import React from "react";
 
 const WhyYouChooseUs = () => {
   return (
-    <div className="main-choose containerOn text-center">
+    <div id="qulayliklar" className="main-choose containerOn text-center">
       <h1 data-aos="zoom-in" className="main-choose-title font-bold md:text-6xl mb-4 md:mt-20 sm:text-4xl text-5xl">
         Nima uchun aynan bizni tanlashingiz kerak?
       </h1>

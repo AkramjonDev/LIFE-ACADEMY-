@@ -3,7 +3,7 @@ import { FaPhone, FaMoon, FaSun } from "react-icons/fa6";
 const FooterNav = () => {
   return (
     <div>
-      <div className="bg-[#332942] ">
+      <div id="contact" className="contact bg-[#332942] ">
         <div className="container flex flex-col md:flex-row justify-between flex-wrap py-6 social-top">
           <p className="flex items-center gap-2 text-white text-[14px]">
             <FaPhone className="text-xl" color="white" />{" "}

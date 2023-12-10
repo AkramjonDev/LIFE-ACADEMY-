@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { FaPhone, FaMoon, FaSun } from "react-icons/fa6";
 import { useState, useEffect } from "react";
 import logo from "../assets/images/photo_2023-10-31_21-42-00.jpg"
@@ -82,52 +81,48 @@ function Navbar() {
             className="menu menu-md dropdown-content mt-3 z-[1] p-2 gap-8 shadow rounded-box w-80 h-64 text-center bg-white"
           >
             <li>
-              <Link
+              <a href="#qulayliklar"
                 className="flex items-center gap-[4px] font-semibold text-2xl text-[#141024]"
-                to={"/xizmatlar"}
               >
                 Qulayliklar
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a href="#main-courses"
                 className="font-semibold text-2xl text-[#141024]"
-                to={"/blog"}
               >
                 Kurslar
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a href="#location"
                 className="font-semibold text-2xl text-[#141024]"
-                to={"/bizhaqimizda"}
               >
                 Location
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
-        <Link className="navbar-logo">
+        <a href="" className="navbar-logo">
           <h1 className="font-bold text-[#fff] dark:text-[#fff] flex items-center gap-3"> <img className="w-[50px] h-[50px] rounded-[50%]" src={logo} alt="" />LIFE ACADEMY</h1>
-        </Link>
+        </a>
         <ul className="flex gap-[24px] items-center navbar-items text-[#fff] dark:text-[#fff]">
           <li>
-            <Link
+            <a href="#qulayliklar"
               className=" flex items-center gap-[4px] text-[18px] font-semibold "
-              to={"/xizmatlar"}
             >
               Qulayliklar
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className="text-[18px] font-semibold" to={"/blog"}>
+            <a href="#main-courses" className="text-[18px] font-semibold">
               Kurslar
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className=" text-[18px] font-semibold" to={"/bizhaqimizda"}>
+            <a href="#location" className=" text-[18px] font-semibold" to={"/bizhaqimizda"}>
               Location
-            </Link>
+            </a>
           </li>
         </ul>
         <div className="flex items-center gap-[10px]">

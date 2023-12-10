@@ -8,7 +8,7 @@ import Math from "../assets/images/Math.jpg"
 import { Link } from "react-router-dom";
 const Courses = () => {
   return (
-    <div className="main-courses containerOn">
+    <div id="main-courses" className="main-courses containerOn">
       <h1
         data-aos="zoom-in"
         className="courses-title font-bold md:text-6xl mb-24 md:mt-20 sm:text-4xl text-5xl text-center"

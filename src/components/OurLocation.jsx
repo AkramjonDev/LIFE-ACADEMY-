@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/photo_2023-10-31_21-42-00.jpg"
 const OurLocation = () => {
   return (
-    <div className="location mb-20">
+    <div id="location" className="location mb-20">
       <h1
         data-aos="zoom-in"
         className="font-bold md:text-6xl mb-24 md:mt-20 text-center"

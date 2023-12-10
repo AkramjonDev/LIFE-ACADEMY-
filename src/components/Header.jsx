@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div
       style={{ backgroundImage: bc }}
-      className="main-header bg-cover bg-center h-[100%] text-[#141024] dark:text-[#fff]"
+      className="main-header bg-cover bg-center text-[#141024] dark:text-[#fff]"
     >
       <Navbar />
       <div className="header-container text-[#fff] flex flex-col md:flex-row justify-between containerOn mt-[50px] w-full h-auto md:h-screen">
