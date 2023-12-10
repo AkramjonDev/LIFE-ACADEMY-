@@ -1,6 +1,6 @@
 import { FaPhone, FaMoon, FaSun } from "react-icons/fa6";
 import { useState, useEffect } from "react";
-import logo from "../assets/images/photo_2023-10-31_21-42-00.jpg"
+import logo from "../assets/images/photo_2023-10-31_21-42-00.jpg";
 const local = () => {
   return JSON.parse(localStorage.getItem("item")) || [];
 };
@@ -81,21 +81,24 @@ function Navbar() {
             className="menu menu-md dropdown-content mt-3 z-[1] p-2 gap-8 shadow rounded-box w-80 h-64 text-center bg-white"
           >
             <li>
-              <a href="#qulayliklar"
+              <a
+                href="#qulayliklar"
                 className="flex items-center gap-[4px] font-semibold text-2xl text-[#141024]"
               >
                 Qulayliklar
               </a>
             </li>
             <li>
-              <a href="#main-courses"
+              <a
+                href="#main-courses"
                 className="font-semibold text-2xl text-[#141024]"
               >
                 Kurslar
               </a>
             </li>
             <li>
-              <a href="#location"
+              <a
+                href="#location"
                 className="font-semibold text-2xl text-[#141024]"
               >
                 Location
@@ -104,11 +107,20 @@ function Navbar() {
           </ul>
         </div>
         <a href="" className="navbar-logo">
-          <h1 className="font-bold text-[#fff] dark:text-[#fff] flex items-center gap-3"> <img className="w-[50px] h-[50px] rounded-[50%]" src={logo} alt="" />LIFE ACADEMY</h1>
+          <h1 className="font-bold text-[#fff] dark:text-[#fff] flex items-center gap-3">
+            {" "}
+            <img
+              className="w-[50px] h-[50px] rounded-[50%]"
+              src={logo}
+              alt=""
+            />
+            LIFE ACADEMY
+          </h1>
         </a>
         <ul className="flex gap-[24px] items-center navbar-items text-[#fff] dark:text-[#fff]">
           <li>
-            <a href="#qulayliklar"
+            <a
+              href="#qulayliklar"
               className=" flex items-center gap-[4px] text-[18px] font-semibold "
             >
               Qulayliklar
@@ -120,14 +132,21 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="#location" className=" text-[18px] font-semibold" to={"/bizhaqimizda"}>
+            <a
+              href="#location"
+              className=" text-[18px] font-semibold"
+              to={"/bizhaqimizda"}
+            >
               Location
             </a>
           </li>
         </ul>
         <div className="flex items-center gap-[10px]">
-          <button onClick={darkMode} className="btn bg-[#fff] h-[48px] w-[48px] text-[#141024] text-2xl ">
-             {items ? <FaMoon /> : <FaSun />}
+          <button
+            onClick={darkMode}
+            className="btn bg-[#fff] h-[48px] w-[48px] text-[#141024] text-2xl"
+          >
+            {theme === themes.light ? <FaMoon /> : <FaSun />}
           </button>
           <button className="btn bg-[#fff] h-[48px] w-[48px] text-[#141024] text-2xl">
             UZ
