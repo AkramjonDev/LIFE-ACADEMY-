@@ -102,7 +102,7 @@ function Navbar() {
                 className="font-semibold text-2xl text-[#141024]"
                 to={"/bizhaqimizda"}
               >
-                Biz haqimizda
+                Location
               </Link>
             </li>
           </ul>
@@ -126,7 +126,7 @@ function Navbar() {
           </li>
           <li>
             <Link className=" text-[18px] font-semibold" to={"/bizhaqimizda"}>
-              Biz haqimizda
+              Location
             </Link>
           </li>
         </ul>
