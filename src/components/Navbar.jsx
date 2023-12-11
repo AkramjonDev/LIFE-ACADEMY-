@@ -148,9 +148,9 @@ function Navbar() {
           >
             {theme === themes.light ? <FaMoon /> : <FaSun />}
           </button>
-          <button className="btn bg-[#fff] h-[48px] w-[48px] text-[#141024] text-2xl">
+          {/* <button className="btn bg-[#fff] h-[48px] w-[48px] text-[#141024] text-2xl">
             UZ
-          </button>
+          </button> */}
         </div>
       </nav>
     </div>
