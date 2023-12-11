@@ -116,6 +116,7 @@ function Navbar() {
             />
             LIFE ACADEMY
           </h1>
+          
         </a>
         <ul className="flex gap-[24px] items-center navbar-items text-[#fff] dark:text-[#fff]">
           <li>
@@ -148,9 +149,6 @@ function Navbar() {
           >
             {theme === themes.light ? <FaMoon /> : <FaSun />}
           </button>
-          {/* <button className="btn bg-[#fff] h-[48px] w-[48px] text-[#141024] text-2xl">
-            UZ
-          </button> */}
         </div>
       </nav>
     </div>

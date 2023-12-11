@@ -32,7 +32,7 @@ const OurLocation = () => {
               <Link
                 className="map border-solid border-slate-300 border-b-8"
                 to={
-                  "https://www.google.com/maps/place/Najot+Ta'lim+Farg'ona/@40.3879817,71.7852899,17z/data=!3m1!4b1!4m6!3m5!1s0x38bb83a471c6b55b:0x9927f2609db0d333!8m2!3d40.3879776!4d71.7878648!16s%2Fg%2F11tk6mv2s0?entry=ttu"
+                  "https://maps.google.com/maps?q=40.382336,71.793142&ll=40.382336,71.793142&z=16"
                 }
               >
                 Google Maps
